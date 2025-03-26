@@ -44,17 +44,17 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+4pPWKtxin2YyNTc1') #Su
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/+URI0ggQ1mLAyM2Y1")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/+URI0ggQ1mLAyM2Y1")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/+URI0ggQ1mLAyM2Y1")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "5b22551890e0d5f2fded51fd64218868131bef1a")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'shortner.in')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", '')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", '')
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', ""))
-THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', ""))
+SHORTENER_API2 = environ.get("SHORTENER_API2", "5b22551890e0d5f2fded51fd64218868131bef1a")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'shortner.in')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "5b22551890e0d5f2fded51fd64218868131bef1a")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'shortner.in')
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "10800"))
+THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "10800"))
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam", "bengali", "marathi", "gujarati", "punjabi", "marathi"]
