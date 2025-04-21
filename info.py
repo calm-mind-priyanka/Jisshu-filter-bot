@@ -22,7 +22,7 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 USERNAME = environ.get('USERNAME', "https://t.me/Sandymaiwait") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002433610423'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+KMWdbBYF9SdjZDBl')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002409171321').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002694840394').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Ayush:AYUSHRA5354N@cluster0.lskh5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -31,13 +31,13 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'My_Tg_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '0'))  # set shortner log channel
-DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0')) # The movie you upload in it will be deleted from the bot.
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '0'))
-auth_channel = environ.get('AUTH_CHANNEL', '-1002285505798')
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002534471850'))  # set shortner log channel
+DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS', '-1002441587926')) # The movie you upload in it will be deleted from the bot.
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002395784504'))
+auth_channel = environ.get('AUTH_CHANNEL', '-1002145371667')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002459015261'))
-request_channel = environ.get('REQUEST_CHANNEL', '0') # If anyone sends a request message to your bot, you will get it in this channel.
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0')) # 
+request_channel = environ.get('REQUEST_CHANNEL', '-1002359536802') # If anyone sends a request message to your bot, you will get it in this channel.
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002145371667')) # 
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+4pPWKtxin2YyNTc1') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -49,12 +49,12 @@ TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/+URI0ggQ1mLAyM2Y1")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
 SHORTENER_API = environ.get("SHORTENER_API", "7e5614ab72f04b5f6df4e1e93c8fca3bd1910574")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'shortifyurl.in')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "7e5614ab72f04b5f6df4e1e93c8fca3bd1910574")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'shortifyurl.in')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "7e5614ab72f04b5f6df4e1e93c8fca3bd1910574")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'shortifyurl.in')
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "86400"))
-THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "86400"))
+SHORTENER_API2 = environ.get("SHORTENER_API2", "5b22551890e0d5f2fded51fd64218868131bef1a")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'shortner.in')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "5b22551890e0d5f2fded51fd64218868131bef1a")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'shortner.in')
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "300"))
+THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "21600"))
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam", "bengali", "marathi", "gujarati", "punjabi", "marathi"]
