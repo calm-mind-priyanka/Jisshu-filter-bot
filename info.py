@@ -34,7 +34,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'My_Tg_files')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002534471850'))  # set shortner log channel
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS', '-1002441587926')) # The movie you upload in it will be deleted from the bot.
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002395784504'))
-auth_channel = environ.get('AUTH_CHANNEL', '-1002145371667')
+auth_channel = environ.get('AUTH_CHANNEL', '-1002260068200')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002459015261'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1002359536802') # If anyone sends a request message to your bot, you will get it in this channel.
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002145371667')) # 
@@ -54,7 +54,7 @@ SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'shortner.in')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "5b22551890e0d5f2fded51fd64218868131bef1a")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'shortner.in')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "300"))
-THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "21600"))
+THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "300"))
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam", "bengali", "marathi", "gujarati", "punjabi", "marathi"]
